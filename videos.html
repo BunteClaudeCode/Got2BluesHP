@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos — Got2Blues</title>
+  <meta name="description" content="Live-Videos von Got2Blues auf YouTube." />
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Got2Blues Startseite">
+        <img src="assets/img/logo-cream-400.png" alt="Got2Blues Logo" />
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Hauptnavigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="termine.html">Termine</a></li>
+          <li><a class="nav__link" href="band.html">Band</a></li>
+          <li><a class="nav__link" href="videos.html" aria-current="page">Videos</a></li>
+          <li><a class="nav__link" href="fotos.html">Fotos</a></li>
+          <li><a class="nav__link" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero hero--page">
+      <div class="container">
+        <p class="eyebrow">Bewegtbild</p>
+        <h1>Videos</h1>
+        <p class="hero__tagline" style="margin:0;">
+          Live-Mitschnitte und Clips von Got2Blues gibt es auf unserem
+          <a href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">YouTube-Kanal</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--noline">
+      <div class="container">
+
+        <div class="section-head" style="max-width:none; display:flex; align-items:flex-end; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+          <div>
+            <p class="eyebrow">Featured</p>
+            <h2 style="margin:0;">Live-Clips</h2>
+          </div>
+          <a class="btn btn--outline" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">Alle Videos auf YouTube</a>
+        </div>
+
+        <!--
+          Diese drei Kacheln verlinken aktuell direkt auf den YouTube-Kanal.
+          Sobald konkrete Video-IDs feststehen, jede Kachel durch ein echtes
+          Embed ersetzen, z. B.:
+
+          <div class="video-embed">
+            <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                    title="Videotitel"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen loading="lazy"></iframe>
+          </div>
+        -->
+        <div class="grid grid--3" style="margin-top:40px;">
+          <a class="video-card" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">
+            <span class="video-card__tag">Live</span>
+            <span class="video-card__play" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.3" /><path d="M10 8.5v7l6-3.5Z" /></svg>
+            </span>
+            <span class="video-card__label">[Platzhalter] Video ansehen auf YouTube</span>
+          </a>
+          <a class="video-card" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">
+            <span class="video-card__tag">Live</span>
+            <span class="video-card__play" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.3" /><path d="M10 8.5v7l6-3.5Z" /></svg>
+            </span>
+            <span class="video-card__label">[Platzhalter] Video ansehen auf YouTube</span>
+          </a>
+          <a class="video-card" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">
+            <span class="video-card__tag">Live</span>
+            <span class="video-card__play" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.3" /><path d="M10 8.5v7l6-3.5Z" /></svg>
+            </span>
+            <span class="video-card__label">[Platzhalter] Video ansehen auf YouTube</span>
+          </a>
+        </div>
+
+        <p class="placeholder-note" style="margin-top:32px;">
+          [Platzhalter] Diese Kacheln verlinken auf den Kanal, sobald konkrete Videos ausgewählt
+          sind bitte durch echte YouTube-Embeds ersetzen (siehe Kommentar im Quellcode).
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--raised section--tight">
+      <div class="container text-center">
+        <p class="eyebrow">YouTube</p>
+        <h2>Kein Video verpassen</h2>
+        <p style="max-width:520px; margin:0 auto 1.4em;">
+          Auf unserem YouTube-Kanal laden wir regelmäßig neue Live-Mitschnitte hoch.
+        </p>
+        <div class="btn-row" style="justify-content:center;">
+          <a class="btn btn--primary" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener">Kanal abonnieren</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/img/logo-cream-400.png" alt="Got2Blues" />
+          <p>Live Blues Band. Booking-Anfragen jederzeit willkommen.</p>
+          <div class="social-row">
+            <a class="social-icon" href="https://www.youtube.com/@Got2Blues" target="_blank" rel="noopener" aria-label="Got2Blues auf YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="termine.html">Termine</a></li>
+              <li><a href="band.html">Band</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="fotos.html">Fotos</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Kontakt</h4>
+            <ul>
+              <li><a href="kontakt.html">Booking-Anfrage</a></li>
+              <li><a href="mailto:booking@got2blues.example">booking@got2blues.example</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Got2Blues. Alle Rechte vorbehalten.</p>
+        <p>Logo &amp; Design: Got2Blues</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
